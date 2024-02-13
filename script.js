@@ -10,4 +10,4 @@ function convertToUppercase(){
 	input.value = value;
 }
 // add eventlisteners to the input field to trigger the conversion when it loses focus
- document.getElementById('fname').addEventListeners('blur',convertToUppercase);
+ document.getElementById('fname').addEventListener('blur',convertToUppercase);
